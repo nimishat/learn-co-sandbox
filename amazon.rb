@@ -17,3 +17,13 @@ expensive << item
   end 
 end 
 puts expensive
+
+#Challenge 3
+cart_item_prices = [12.43, 19.99, 3.49, 75.00]
+sum=0
+sum=cart_item_prices.each do |x|
+  sum= x+sum
+end
+puts sum
+
+
