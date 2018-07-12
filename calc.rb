@@ -1,4 +1,5 @@
 #Math Operation methods
+
 def add(int1, int2)
   int1 + int2
 end
@@ -9,8 +10,10 @@ end
 
  #Main Body
  loop do
+puts "Enter a math equation with spaces between each number and operation"
 input = gets.chomp
 input_array = input.split(" ")
+
 
 number1 = input_array[0].to_i
 operator = input_array[1]
