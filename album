@@ -1,0 +1,7 @@
+class Album
+attr_accessor :name, :songs
+
+def initialize(album_name)
+@name = album_name
+@songs = []
+end
